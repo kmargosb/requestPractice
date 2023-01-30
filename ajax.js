@@ -18,7 +18,7 @@ btnFullDatos.addEventListener("click", function () {
   userRequest.send();
 });
 
-btnDato.addEventListener("click", function () {  
+btnDato.addEventListener("click", function () {
   userRequest.open("GET", "https://jsonplaceholder.typicode.com/users");
   userRequest.onload = function () {
     let userData = JSON.parse(userRequest.responseText);
@@ -28,7 +28,7 @@ btnDato.addEventListener("click", function () {
   userRequest.send();
 });
 
-function userHtml(datos) {  
+function userHtml(datos) {
   datoIndividual = `
         <tr>
             <td>${datos[nro].id}</td><td>${datos[nro].name}</td><td>${datos[nro].username}</td><td>${datos[nro].email}</td><td>${datos[nro].phone}</td>
@@ -47,5 +47,3 @@ function renderHtml(datos) {
   }
   $data.innerHTML = fullData;
 }
-
-// Peticiones FETCH
