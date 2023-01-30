@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+table{
+    background-color: black;
+    color:azure;
+    box-shadow: 0 0 10px rgb(221, 43, 43);
+    margin: 1rem auto;
+    margin-bottom: 4rem;
+    
+}
+table th{
+    padding: 1rem 1rem;
+    border: solid 1px white;
+}
+
+button{
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+}
