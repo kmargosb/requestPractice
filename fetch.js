@@ -27,7 +27,7 @@ btnFullDatos.addEventListener("click", function () {
   btnDato.addEventListener("click", function () { // ------------- >  Metodo "POST"
     fetch("https://jsonplaceholder.typicode.com/users", {
       method: "POST",
-      body: '{"name" : "nelson", "username" : "kmargosb", "email": "cmargosb@gmail.com", "phone" : "624892993"}',
+      body: '{"name" : "nelson", "username" : "kmargo", "email": "emaildenelson@gmail.com", "phone" : "555-55cincorriente"}',
       headers: { "content-type": "application/json" },
     })
       .then((res) => res.json())
